@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+}
+
+img{
+    width: 109px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 130px;
+}
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#welcomediv{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 500px;
+    padding: 5%;
+}
+
+button{
+    background-color: rgb(55,198,102);
+    padding: 12px;
+    color: white;
+    font-size: medium;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table{
+    margin: auto;
+}
+
+table ,tr td, th{
+    border: 2px solid lightgrey;
+    padding: 20px;
+    border-collapse: collapse; 
+}
+
+th{
+    background-color: rgb(55,198,102);
+    color: white;
+
+}
+tr:hover{
+    background-color: rgb(238,238,209);
+    
+}
+
+#quantity {
+    width: 40px;
+}
+
+
+.Buy{
+    height: 40px;
+    width: 100px;
+    background-color: #27B755;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
